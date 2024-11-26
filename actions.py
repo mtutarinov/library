@@ -87,6 +87,7 @@ def change_book_status(library: Library):
 
 
 def show_books(library):
+    """Показывает данные всех книг в библиотеке."""
     print('Список книг в библиотеке:')
     result = library.show_books()
     for id, book in result:
