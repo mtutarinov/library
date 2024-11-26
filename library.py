@@ -10,7 +10,17 @@ from exception import IdNotFoundException
 
 @dataclass
 class Book:
-    """ Датаклас книга. """
+    """
+    Датакласc книга.
+
+    Attributes:
+          title: название книги
+          author: автор
+          year: год
+          id: идентификатор книги
+          status: "в наличии" или "выдана"
+
+    """
     title: str
     author: str
     year: int
