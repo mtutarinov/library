@@ -1,5 +1,4 @@
-from library import Book, Library, LibraryIndex
-from actions import *
+from library import Library, Book
 from exception import IdNotFoundException
 
 

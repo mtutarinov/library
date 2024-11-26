@@ -1,5 +1,5 @@
 from library import Book, Library
-from exception import IdNotFoundException, NotANumberException, NotSearchFieldException, ValueNotFoundException
+from exception import IdNotFoundException, NotSearchFieldException
 
 
 def add_book(library: Library):
